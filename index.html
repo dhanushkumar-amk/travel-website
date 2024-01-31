@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website - visiovibe</title>
+
+    <!-- icon -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a
+        href="#"
+        class="logo">
+        <img
+          src="./Assets/Logo.png"
+          alt="logo image" />
+      </a>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="h-right">
+        <a
+          href="#"
+          class="h-btn">
+          Book Now
+          <img
+            src="/Assets/Vector.png"
+            alt="vector image" />
+        </a>
+        <div
+          class="bx bx-menu"
+          id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- home section -->
+    <main>
+      <section
+        class="home"
+        id="home">
+        <div class="home-text">
+          <h1>Discover the Best Lovely Places</h1>
+          <p>
+            Discover the Best Lovely Places Discover the Best Lovely Places
+            Discover the Best Lovely Places Discover the Best Lovely Places
+          </p>
+          <div class="button">
+            <a
+              href="#"
+              class="btn">
+              Explore
+            </a>
+            <a
+              href="#"
+              class="btn2">
+              <span><i class="bx bx-play"></i></span>
+              Watch Video
+            </a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img
+            src="./Assets/hero.png"
+            alt="home image" />
+        </div>
+      </section>
+      <section class="cat">
+        <div class="cat-content">
+          <div class="row">
+            <img
+              src="./Assets/row1.png"
+              alt="row image 1" />
+            <h4>Tower</h4>
+          </div>
+          <div class="row">
+            <img
+              src="./Assets/row6.png"
+              alt="row image 6" />
+            <h4>Tower</h4>
+          </div>
+          <div class="row">
+            <img
+              src="./Assets/row2.png"
+              alt="row image 2" />
+            <h4>Tower</h4>
+          </div>
+          <div class="row">
+            <img
+              src="./Assets/row3.png"
+              alt="row image 3" />
+            <h4>Tower</h4>
+          </div>
+          <div class="row">
+            <img
+              src="./Assets/row4.png"
+              alt="row image 4" />
+            <h4>Tower</h4>
+          </div>
+          <div class="row">
+            <img
+              src="./Assets/row5.png"
+              alt="row image 5" />
+            <h4>Tower</h4>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section
+        class="about"
+        id="about">
+        <div class="about-img">
+          <img
+            src="./Assets/about.png"
+            alt="about image" />
+        </div>
+        <div class="about-text">
+          <span>Our Experience</span>
+          <h2>Our Stories Have Adventure</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+            temporibus optio inventore veniam vitae earum voluptates sequi
+            impedit laborum blanditiis.
+          </p>
+          <div class="about-box">
+            <div class="about-in">
+              <div class="main-box">
+                <h5>12K+</h5>
+                <h6>Success Journey</h6>
+              </div>
+            </div>
+            <div class="about-in">
+              <div class="main-box">
+                <h5>12+</h5>
+                <h6>Award Winnings</h6>
+              </div>
+            </div>
+            <div class="about-in">
+              <div class="main-box">
+                <h5>20+</h5>
+                <h6>Years Of Experience</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ---js-------- -->
+    <script>
+      const header = document.querySelector('header');
+      window.addEventListener('scroll', function () {
+        header.classList.add('sticky', window.screenY > 60);
+      });
+    </script>
+  </body>
+</html>
