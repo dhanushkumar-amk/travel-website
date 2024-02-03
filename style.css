@@ -464,3 +464,61 @@ header.sticky {
   color: var(--text-color);
   border: 1px solid #2d3134;
 }
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 25px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box img {
+  margin-bottom: 5px;
+}
+.footer-box p {
+  font-size: var(--p-font);
+  font-weight: 600;
+  color: var(--other-color);
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+.social-link i {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--main-color);
+  margin-right: 12px;
+  transition: all ease 0.5s;
+}
+.social-link i:hover {
+  transform: translateY(-5px);
+}
+
+.footer-box a {
+  font-size: var(--p-font);
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: var(--other-color);
+  transition: all ease 0.5s;
+}
+.footer-box a:hover {
+  color: var(--main-color);
+  transform: translateX(-5px);
+}
+.footer-box h3 {
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.end-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.end-text {
+  color: #5b5f62;
+}
